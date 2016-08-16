@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="791.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafx_adm_sql.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="679.0" layoutY="14.0" onAction="#handleButtonAction" prefHeight="32.0" prefWidth="98.0" text="Executar">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="14.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="32.0" prefWidth="638.0" text="Nome do Banco de Dados:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <TextArea layoutX="14.0" layoutY="68.0" prefHeight="371.0" prefWidth="763.0" />
+    </children>
+</AnchorPane>
